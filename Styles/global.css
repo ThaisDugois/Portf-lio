@@ -5,6 +5,24 @@
 }
 
 :root {
-  --cor-background: #000000;
-  --cor-texto: #cbd5e1;
+  --bg-color-ligth: #A8B6A4;  
+  --icon-color-ligth: #646F4D;
+  --text1-color-ligth: #646F4D;
+  --text2-color-ligth: #646F4D;
+  --text3-color-ligth: #E8FAE3;
+  --text4-color-ligth: #0F1B0B;
+  --text5-color-ligth: #000000;
+
+  --bg-color-dark: #151E04;  
+  --icon-color-dark: #2C3E27;
+  --text1-color-dark: #FFFFFF;
+  --text2-color-dark: #FFFFFF;
+  --text3-color-dark: #E8FAE3;
+  --text4-color-dark: #E8FAE3;
+  --text5-color-dark: #FFFFFF;
+}
+
+body {
+  color: var(--text1-color-ligth);
+  background-color: var(--bg-color-ligth);  
 }
